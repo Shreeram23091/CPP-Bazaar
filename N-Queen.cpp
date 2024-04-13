@@ -58,3 +58,4 @@ int main(){
     NQueen(0,n,board);
     cout<<cnt;
 }
+//time complexity is O(n!)
