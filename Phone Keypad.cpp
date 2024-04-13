@@ -28,3 +28,6 @@ int main() {
 
     return 0;
 }
+//time complexity = O(m^n)
+//n' as the length of the input sequence.
+//'m' as the maximum number of letters associated with any digit (e.g., for '7' and '9', which have 4 letters each in the English alphabet).
