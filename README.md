@@ -73,3 +73,18 @@ cd
 ce
 cf
 ```
+
+## Rat in a Maze Problem
+
+### Overview
+The Rat in a Maze problem involves finding all possible paths for a rat to move from the starting cell to the destination cell in a maze.
+
+### Solution Approach
+This repository contains a C++ implementation of the Rat in a Maze problem using a backtracking algorithm.
+
+### Usage
+To use the program:
+1. Compile the `rat_maze.cpp` file using a C++ compiler.
+2. Run the executable.
+
+
