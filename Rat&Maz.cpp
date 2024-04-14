@@ -58,10 +58,17 @@ int main() {
    }
    cout<<endl<<endl;
    cout<<"output :"<<endl;
-   if(arr[0][0]==0)
-   return 0;
-   if(arr[n-1][n-1]==0)
-   return 0;
+   if(arr[0][0]==0){
+       cout<<" Invalid input";
+       return 0;
+       
+   }
+   
+   if(arr[n-1][n-1]==0){
+       cout<<" Invlid Input";
+        return 0;
+   }
+  
    Rat_Maz(0,0,n,arr,vis);
 
     return 0;
