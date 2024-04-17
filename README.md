@@ -87,4 +87,12 @@ To use the program:
 1. Compile the `rat_maze.cpp` file using a C++ compiler.
 2. Run the executable.
 
+### reverse an array using Multiple test case
 
+1. **Input**: The user is prompted to enter the number of test cases (`t`). Then, for each test case, the user inputs an integer `n` followed by `n` integers.
+
+2. **Reverse Operation**: For each test case, the program reverses the order of the `n` integers using a two-pointer approach. It initializes two pointers `s` (starting pointer) and `e` (ending pointer) at the beginning and end of the array, respectively. Then, it swaps the elements pointed by `s` and `e`, incrementing `s` and decrementing `e`, until `s` becomes greater than or equal to `e`.
+
+3. **Output**: After reversing the sequence, the program prints the reversed sequence for each test case.
+
+4. **Time Complexity**: The overall time complexity of the program is **O(t * n)**, where `t` is the number of test cases and `n` is the average size of the input sequence across all test cases. This is because for each test case, the program performs a linear-time reversal operation on the sequence of size `n`. Therefore, the total time complexity is proportional to the number of test cases multiplied by the size of the input sequences.
