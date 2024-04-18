@@ -96,3 +96,38 @@ To use the program:
 3. **Output**: After reversing the sequence, the program prints the reversed sequence for each test case.
 
 4. **Time Complexity**: The overall time complexity of the program is **O(t * n)**, where `t` is the number of test cases and `n` is the average size of the input sequence across all test cases. This is because for each test case, the program performs a linear-time reversal operation on the sequence of size `n`. Therefore, the total time complexity is proportional to the number of test cases multiplied by the size of the input sequences.
+
+
+Certainly! Here's a simplified README for the provided C++ code:
+
+---
+
+## Cumulative sum(Bruteforce)
+
+This C++ program calculates the sum of elements within specified ranges of an array.
+
+### Usage
+
+1. **Compilation**: Compile the program using a C++ compiler.
+2. **Execution**: Run the compiled executable.
+3. **Input**: Follow the prompts to input array size, elements, and query ranges.
+4. **Output**: The program will display the sum of elements within each specified range.
+
+### Example
+
+```
+Enter the value of n: 5
+2 4 6 8 10
+Enter number of queries: 3
+Enter the range of index you want to sum: 0 2
+Enter the range of index you want to sum: 1 3
+Enter the range of index you want to sum: 2 4
+
+Output:
+12
+18
+24
+```
+
+---
+
