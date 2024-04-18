@@ -130,4 +130,38 @@ Output:
 ```
 
 ---
+Sure, here's a simplified README for the provided C++ code:
 
+---
+
+## cumulative sum using prefix_sum
+
+This C++ program efficiently calculates the sum of elements within specified ranges of an array using the prefix sum technique.
+
+### Usage
+
+1. **Compilation**: Compile the program using any C++ compiler.
+
+2. **Execution**: Run the compiled executable.
+
+3. **Input**: Input the size of the array, followed by the elements of the array, and then the number of queries and the range of indices for each query.
+
+4. **Output**: The program will display the sum of elements within each specified range.
+
+### Example
+
+```
+Input:
+5
+1 2 3 4 5
+3
+0 2
+1 3
+2 4
+
+Output:
+6
+9
+12
+```
+// time complexity=O(n)
